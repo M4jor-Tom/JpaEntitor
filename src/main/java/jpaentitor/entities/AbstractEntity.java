@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
-public class AbstractEntity implements Primable {
+public class AbstractEntity implements Primable, Primed {
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)

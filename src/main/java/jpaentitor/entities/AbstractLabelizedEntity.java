@@ -1,6 +1,6 @@
 package jpaentitor.entities;
 
-public class AbstractLabelizedEntity extends AbstractEntity implements Labelizable {
+public class AbstractLabelizedEntity extends AbstractEntity implements Labelizable, Labelized {
 
 	private String label;
 	
