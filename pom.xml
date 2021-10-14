@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.M4jor-Tom</groupId>
 	<artifactId>jpa-entitor</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.31</version>
 	<name>JpaEntitor</name>
 	<description>Entity inheritors for JPA entities</description>
 	<properties>
@@ -47,4 +47,12 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+   		<repository>
+    		<id>github</id>
+    		<name>GitHub M4jor-Tom Apache Maven Packages</name>
+    		<url>https://maven.pkg.github.com/M4jor-Tom/JpaEntitor</url>
+    	</repository>
+	</distributionManagement>
 </project>
